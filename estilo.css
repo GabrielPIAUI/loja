@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+}
+
+.topo {
+    background-color: orange;
+    padding: 50px;
+    padding-bottom: 30px;
+}
+
+.topo li {
+    padding: 20px;
+}
+
+.topo a {
+    text-decoration: none;
+}
+
+.titulo {
+    color: rgb(80, 39, 1);
+    text-align: center;
+}
+
+.subtitulo {
+    color: rgb(80, 39, 1);
+    text-align: center;  
+}
+
+.destaque {
+    padding: 20px;
+    color: red;
+    text-align: center;
+}
+
+.materia {
+    width: 500px;
+}
+
+.materia img {
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+
+}
