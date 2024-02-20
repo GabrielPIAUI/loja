@@ -6,6 +6,14 @@
 .menu {
     display: flex;
     margin-left: auto;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu a {
+    margin-left: 50px;
+    margin-right: 0px;
+    padding-left: 1000%;
 }
 
 .topo {
@@ -15,11 +23,7 @@
 }
 
 .topo li {
-    padding: 20px;
-}
-
-.topo a {
-    text-decoration: none;
+    padding: 0px;
 }
 
 .titulo {
@@ -46,5 +50,16 @@
     width: 100%;
     padding-left: auto;
     padding-right: auto;
+}
 
+.preco {
+    padding-left: 10px;
+}
+
+.frete {
+    padding-left: 10px;
+}
+
+.botao {
+    padding-left: 10px;
 }
