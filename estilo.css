@@ -10,10 +10,8 @@
     list-style: none;
 }
 
-.menu a {
-    margin-left: 50px;
-    margin-right: 0px;
-    padding-left: 1000%;
+.menu li a {
+    padding-left: 100px;
 }
 
 .topo {
@@ -44,12 +42,12 @@
 
 .materia {
     width: 500px;
+    padding: 15px;
 }
 
 .materia img {
     width: 100%;
-    padding-left: auto;
-    padding-right: auto;
+
 }
 
 .preco {
@@ -62,4 +60,17 @@
 
 .botao {
     padding-left: 10px;
+}
+
+div {
+    display: inline-block;
+    width: 250px;
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+    gap: 20px;
+}
+
+.rodape {
+    background-color: orange;
+    padding-left: 10px;
+    padding-top: 10px;
 }
