@@ -40,12 +40,7 @@
     text-align: center;
 }
 
-.materia {
-    width: 500px;
-    padding: 15px;
-}
-
-.materia img {
+div img {
     width: 100%;
 
 }
@@ -64,9 +59,46 @@
 
 div {
     display: inline-block;
-    width: 250px;
+    width: 30%;
     grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
-    gap: 20px;
+    gap: 10px;
+    padding: 10px;
+    padding-left: 100px;
+    background-color: red;
+}
+
+.contato {
+    background-color: darkgrey;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+desc.contato {
+    padding-bottom: 5px;
+}
+
+.rotulo {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.campo {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: Cambria;
+    border: none;
+    background-color: whitesmoke;
+}
+
+textarea.campo {
+    height: 150px;
+    padding: 10px;
+    font-family: Cambria;
 }
 
 .rodape {
