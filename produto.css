@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tudo2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding-left: 360px;
+    background-color: brown;
+    max-width: 200px;
+}

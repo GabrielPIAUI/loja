@@ -11,7 +11,7 @@
 }
 
 .menu li a {
-    padding-left: 100px;
+    margin: 20px;
 }
 
 .topo {
@@ -20,8 +20,16 @@
     padding-bottom: 30px;
 }
 
-.topo li {
-    padding: 0px;
+.corpo img {
+width: 40%;
+margin-top: 10px;
+}
+
+.tudo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding-left: 360px;
+    background-color: brown;
 }
 
 .titulo {
@@ -37,12 +45,8 @@
 .destaque {
     padding-top: 50px;
     color: red;
+    margin-bottom: 40px;
     text-align: center;
-}
-
-div img {
-    width: 100%;
-
 }
 
 .preco {
@@ -57,14 +61,9 @@ div img {
     padding-left: 10px;
 }
 
-div {
-    display: inline-block;
-    width: 30%;
-    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
-    gap: 10px;
-    padding: 10px;
-    padding-left: 100px;
-    background-color: red;
+
+.teve {
+    padding-top: 27px;
 }
 
 .contato {
@@ -105,4 +104,10 @@ textarea.campo {
     background-color: orange;
     padding-left: 10px;
     padding-top: 10px;
+
+}
+
+.rodape h1 {
+
+    padding-top: 500px;
 }
