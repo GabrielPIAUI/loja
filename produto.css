@@ -3,10 +3,94 @@
     box-sizing: border-box;
 }
 
+.logo2 {
+    padding-left: 5px;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 1400px;
+    font-size: 18px;
+}
+
+.menu li a {
+    margin: 20px;
+}
+
+.topo {
+    background-color: orange;
+    padding: 50px;
+    padding-bottom: 30px;
+}
+
+.titulo {
+    color: rgb(80, 39, 1);
+    text-align: center;
+}
+
+.subtitulo {
+    color: rgb(80, 39, 1);
+    text-align: center;  
+}
+
+.corpo2 {
+    padding: 20px;
+}
+
+.destaque {
+    text-align: center;
+}
+
+.destaque2 {
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 80px;
+}
+
 .tudo2 {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    padding-left: 360px;
-    background-color: brown;
-    max-width: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding: 20px;
+    gap: 20px
+}
+
+.produto {
+    padding: 40px;
+    background-color: darkgreen;
+    padding: 30px;
+}
+
+.produto2 {
+    padding: 40px;
+    background-color: darkgreen;
+    padding: 30px;
+    padding-top: 100px;
+}
+
+.produto2 img {
+    width: 100%;
+}
+
+.produto img {
+    width: 100%
+}
+
+.rodape {
+    background-color: orange;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.rodape h1 {
+    text-align: center;
+    padding-top: 100px;
 }
