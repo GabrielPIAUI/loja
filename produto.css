@@ -10,14 +10,18 @@
 .menu {
     display: flex;
     margin-left: auto;
-    text-decoration: none;
-    list-style: none;
     margin-left: 1400px;
     font-size: 18px;
+    list-style: none;
+}
+
+.image {
+    text-align: center;
 }
 
 .menu li a {
     margin: 20px;
+    text-decoration: none;
 }
 
 .topo {
@@ -63,9 +67,9 @@
 }
 
 .produto {
-    padding: 40px;
-    background-color: darkgreen;
+    align-items: center;
     padding: 30px;
+    background-color: darkgreen;
 }
 
 .produto2 {
